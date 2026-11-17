@@ -1,24 +1,44 @@
-# Programmieren 1 - Exercise Solutions
+# Programmieren 2 – Übungslösungen
 
-Hello young Padawans,
+My solutions to the weekly exercises (Übungen) of the module **Programmieren 2**, part of the curriculum of the **Fakultät Informatik und Wirtschaftsinformatik (FIW)** at the **Technische Hochschule Würzburg-Schweinfurt (THWS)**.
 
-This repo was created to accompany you in the adventure of solving the exercises of the "Programmieren 2" course, which is a long and tiring journey. So, this is a haven where you can take shelter when you feel lost in the magical world of codes. 🚢
+All solutions are written in **Java**. Programmieren 2 builds on [Programmieren 1](https://github.com/atillaoezdemir/programmieren_1) and focuses on object-oriented design, the Java standard library and testing.
 
-What Will You Find? 🧐
+> Hello again, young Padawans 👋 You survived Programmieren 1, so here is the next stretch of the road. Same rule as before: try each exercise yourself first, then compare.
 
-Here you will find solutions to exercises you may encounter within the scope of the course. But remember, what you see here are not absolute and immutable facts! Writing code is an art, and like every art, it has many different interpretations and techniques. The solutions here are just suggestions, in other words, they are a beacon that will guide you on this long road.
+## Contents
 
-Important note! 📝
+The code is sorted by lecture (Lektion):
 
-This repo is not a "mystery projects library". So, you won't find life-changing or world-saving projects here. I am only sharing the solutions of the exercises within the scope of the course. But who knows, maybe you'll be inspired by these solutions and create something that will truly change the world! 🌍
+| Folder | Topic |
+| --- | --- |
+| `lektion14` | Classes and unit testing with JUnit 5 (`Punkt`, `Strecke`, `Person`, `KugelVolumen`) |
+| `lektion15` | Inheritance and polymorphism (`Angestellter` / `Abteilungsleiter`, `Person` / `Student` / `Professor`, question types) |
+| `lektion16` | Abstract classes and interfaces (`Cyborg`, `Stack`, chess pieces, coin machine) |
+| `lektion17` | Streams and file I/O (`java.io`) |
+| `lektion18` | Exceptions, custom exception classes, `Writer`s, client-server (Hangman) |
+| `lektion19` | Generics (`Pair`, `GenericStack`), networking (Hangman server/client) |
+| `lektion20` | Enums and collections (card game, `MultiMap`, SMS) |
+| `lektion21` | Generic data structures (binary tree) and design patterns (Builder) |
+| `lektion22` | Nested, local and anonymous classes, `Comparator`, threads, sockets |
+| `lektion23` | Lambdas, `Comparator`s with lambdas, `Optional` |
+| `klausursuebungen` | Old exam questions (SS2017, SS2020, SS2022) and exam practice, e.g. `Mietwagen`, `Twotter`, `Morse`, `MusikStueckSammlung`, IBAN check |
 
-Did You Find An Error? 🕵️
+## A word of caution 📝
 
-Every human being makes mistakes, and yes, I am human too (for now!). So if you find any errors in the solutions or would like to suggest a different solution, please feel free to contact me. Together, we can work to make this repo an even better resource. You can use my email address for communication.
+- These are **my own solutions**, not official ones from the faculty. There are many valid ways to solve each exercise, so treat what you see here as one suggestion, not as the only correct answer.
+- Some identifiers and comments are in Turkish. They are notes I wrote for myself while learning.
+- The exercise sheets belong to the lecturers and are not included here; this repo only contains the solutions.
+- Use the solutions for learning and comparing, and stick to the academic integrity rules of THWS for graded work.
 
-Last Words 🎤
+## Found a mistake? 🕵️
 
-This repo was created to help you. I hope your time here will be both educational and enjoyable. Remember, the challenges you face in your programming journey make you stronger. That's why every mistake you make can actually be your greatest teacher.
+I'm human too (for now). If you find a bug or have a better solution, feel free to open an issue or a pull request.
 
-Have fun, young Jedi! May the code be with you! 🚀
+## Related
 
+- [Programmieren 1 – Übungslösungen](https://github.com/atillaoezdemir/programmieren_1)
+
+---
+
+Have fun, young Jedi. May the code be with you! 🚀
